@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_height="match_parent"
+                                             android:layout_width="match_parent"
+                                             android:background="@color/colorPrimaryDark">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="Текущие задачи"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" android:id="@+id/startTextView1" android:layout_weight="1"
+                android:textAlignment="center" android:textSize="24sp"
+                android:fontFamily="casual" android:gravity="center_vertical|center"
+                android:layout_marginTop="150dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                android:background="@color/colorPrimaryDark" android:backgroundTint="@color/colorPrimary"
+                android:contextClickable="true" android:linksClickable="true" android:longClickable="true"
+                android:focusableInTouchMode="true" android:allowUndo="false"
+                android:cursorVisible="true" android:defaultFocusHighlightEnabled="true"
+                android:fadingEdge="vertical" android:filterTouchesWhenObscured="true" android:focusable="auto"
+                android:onClick="goToActiveTasks" android:autoText="false" android:layout_marginBottom="20dp"/>
+        <Button
+                android:text="Выполненные задачи"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" android:id="@+id/startTextView2" android:layout_weight="1"
+                android:textAlignment="center" android:textSize="24sp"
+                android:fontFamily="casual" android:gravity="center_vertical|center"
+                android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                android:background="@color/colorPrimaryDark" android:backgroundTint="@color/colorPrimary"
+                android:linksClickable="true" android:longClickable="true" android:contextClickable="true"
+                android:focusableInTouchMode="true" android:defaultFocusHighlightEnabled="true"
+                android:fadingEdge="vertical" android:filterTouchesWhenObscured="true" android:focusable="auto"
+                android:onClick="goToFinishedTasks" android:autoText="false" android:layout_marginBottom="150dp"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

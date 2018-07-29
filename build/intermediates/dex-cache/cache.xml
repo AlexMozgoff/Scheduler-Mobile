@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Public\Documents\SchedulerMobile\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="98d9e86f9046a99da6477b62a8f79ff98d41e95f">
+        <dex dex="C:\Users\Public\Documents\SchedulerMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6dc1d0a1763e44f750c7f6cd120922734d9c943a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Public\Documents\SchedulerMobile\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="28.0.0"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="C:\Users\Public\Documents\SchedulerMobile\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_bbd3f0eb5db0baa969cbeca6e45664397dc73a00\classes.dex" />
+    </item>
+
+</items>
